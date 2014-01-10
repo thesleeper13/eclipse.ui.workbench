@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<workbench version="2.0">
+
+<workbenchAdvisor/>
+
+
+-<window y="2" x="150" width="1400" minimized="true" height="850">
+
+<fastViewData fastViewLocation="1024"/>
+
+<intro standby="false"/>
+
+<perspectiveBar/>
+
+
+-<coolbarLayout>
+
+<coolItem y="22" x="38" itemType="typeToolBarContribution" id="com.jrockit.mc.browser.toolbar.connection"/>
+
+</coolbarLayout>
+
+
+-<page label="<Unknown Label> - Mission Control" focus="true">
+
+
+-<editors>
+
+
+-<editorArea activeWorkbook="DefaultEditorWorkbook">
+
+
+-<info part="DefaultEditorWorkbook">
+
+
+-<folder expanded="2" appearance="1">
+
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+
+</folder>
+
+</info>
+
+</editorArea>
+
+</editors>
+
+
+-<views>
+
+<view id="com.jrockit.mc.flightrecorder.ui.views.types.EventTypesView" partName="Event Types"/>
+
+
+-<view id="org.eclipse.ui.internal.introview" partName="Welcome">
+
+
+-<viewState>
+
+<presentation restore="true" currentPage="root"/>
+
+<standbyPart/>
+
+</viewState>
+
+</view>
+
+
+-<view id="com.jrockit.mc.browser.views.JVMBrowserView" partName="JVM Browser">
+
+<viewState UseTreeLayout="false"/>
+
+</view>
+
+</views>
+
+
+-<perspectives activePerspective="com.jrockit.mc.ui.idesupport.StandardPerspective" activePart="org.eclipse.ui.internal.introview">
+
+
+-<perspective version="0.016" fixed="0" editorAreaVisible="1" editorAreaTrimState="2">
+
+<descriptor id="com.jrockit.mc.ui.idesupport.StandardPerspective" label="Mission Control" class="com.jrockit.mc.ui.idesupport.StandardPerspective"/>
+
+<alwaysOnActionSet id="com.jrockit.mc.console.ui.actionSet"/>
+
+<alwaysOnActionSet id="com.jrockit.mc.docs.actionSet"/>
+
+<alwaysOnActionSet id="com.jrockit.mc.alert.actionSet"/>
+
+<show_view_action id="com.jrockit.mc.browser.views.JVMBrowserView"/>
+
+<show_view_action id="com.jrockit.mc.components.ui.design.view.DesignView"/>
+
+<show_view_action id="com.jrockit.mc.flightrecorder.ui.views.types.EventTypesView"/>
+
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+
+<view id="com.jrockit.mc.browser.views.JVMBrowserView"/>
+
+<view id="com.jrockit.mc.flightrecorder.ui.views.types.EventTypesView"/>
+
+<view id="org.eclipse.ui.internal.introview"/>
+
+<fastViewBars/>
+
+<viewLayoutRec id="com.jrockit.mc.flightrecorder.ui.views.types.EventTypesView" closeable="false"/>
+
+<viewLayoutRec id="com.jrockit.mc.browser.views.JVMBrowserView" closeable="false"/>
+
+
+-<layout>
+
+
+-<mainWindow>
+
+
+-<info part="org.eclipse.ui.internal.ViewStack@1f51604" folder="true">
+
+
+-<folder expanded="2" appearance="2" activePageID="com.jrockit.mc.browser.views.JVMBrowserView">
+
+<page label="JVM Browser" content="com.jrockit.mc.browser.views.JVMBrowserView"/>
+
+<page label="Event Types" content="com.jrockit.mc.flightrecorder.ui.views.types.EventTypesView"/>
+
+<page label="LabelNotFound" content="com.jrockit.mc.ui.idesupport.tallFolder"/>
+
+<page label="LabelNotFound" content="com.jrockit.mc.components.ui.design.view.DesignView"/>
+
+
+-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+
+<part id="0"/>
+
+<part id="1"/>
+
+</presentation>
+
+</folder>
+
+</info>
+
+
+-<info part="org.eclipse.ui.internal.ViewStack@e0692f" folder="true" relative="org.eclipse.ui.internal.ViewStack@1f51604" relationship="2" ratioRight="344" ratioLeft="1030" ratio="0.7496361">
+
+
+-<folder expanded="1" appearance="2" activePageID="org.eclipse.ui.internal.introview">
+
+<page label="Welcome" content="org.eclipse.ui.internal.introview"/>
+
+<page label="LabelNotFound" content="org.eclipse.help.ui.HelpView"/>
+
+
+-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+
+<part id="0"/>
+
+</presentation>
+
+</folder>
+
+</info>
+
+<info part="org.eclipse.ui.editorss" relative="org.eclipse.ui.internal.ViewStack@1f51604" relationship="2" ratioRight="1072" ratioLeft="302" ratio="0.21979621"/>
+
+</mainWindow>
+
+</layout>
+
+</perspective>
+
+</perspectives>
+
+<workingSets/>
+
+<navigationHistory/>
+
+</page>
+
+<workbenchWindowAdvisor/>
+
+<actionBarAdvisor/>
+
+
+-<trimLayout>
+
+
+-<trimArea IMemento.internal.id="1024">
+
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+
+</trimArea>
+
+</trimLayout>
+
+</window>
+
+<mruList/>
+
+</workbench>
